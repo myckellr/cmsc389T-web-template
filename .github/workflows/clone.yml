@@ -14,7 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              cd ..
               cd ../pub
               pwd
               ssh-keyscan -H github.com >> ~/.ssh/known_hosts
