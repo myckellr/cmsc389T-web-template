@@ -17,4 +17,4 @@ jobs:
               cd ../pub
               pwd
               ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-              git clone git@github.com:myckellr/myckellr.github.io.git
+              git clone https://github.com/myckellr/myckellr.github.io.git
