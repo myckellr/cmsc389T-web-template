@@ -15,5 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd ../pub
-              echo pwd
+              pwd
               git clone git@github.com:myckellr/myckellr.github.io.git
