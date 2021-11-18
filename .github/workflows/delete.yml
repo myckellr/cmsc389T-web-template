@@ -14,6 +14,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              ssh-keyscan -H github.com >> ~/.ssh/known_hosts
               cd ../pub
               unalias rm
               rm -rf myckellr.github.io
